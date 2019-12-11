@@ -1,32 +1,51 @@
 body{
     background-color: black;
+    font-family: Roboto;
   }
+
+  .big_title{
+    font-weight: 500;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 70px;
+    letter-spacing: 1px;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 33px;
+  }
+  .pharagraph{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
   .main_page p{
     position: absolute;
-    width: 803px;
-    height: 67.53px;
-    left: 278px;
-    top: 53.03px;
-    font-style: normal;
+    margin-left: 226px;
+    top: 0px;
     font-size: 24px;
     color: #BBBBBB;
-    line-height: 1.2em;
+    text-align:center;
+}
+.main_page_uir{
+    padding-top: 30px;
+    padding-left: 110px;
     text-align:center;
 }
 .main_page a{
-  color: #FFFFFF;
-    font-weight: 400;
     text-shadow: none;
     text-decoration: none;
 }
-
 .main_page a::before {
     color: #BBBBBB;
     content: attr(data-hover);
     position: absolute;
     transition: transform 3s, opacity 1.5s;
 }
-
 .main_page a:hover::before,
 .main_page a:focus::before {
     transform: scale(0.5);
@@ -34,54 +53,36 @@ body{
     opacity: 0;
 }
 .main_page{
-  width: 1360px;
-  height:851px;
+    width: 1360px;
+    height:810px;
 }
 .main_page span {
-  position: absolute;
-  top:300px;
-  left:150px;
-  text-align: left;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  color: #FFFFFF;
-  line-height: 60px;
+    position: absolute;
+    top:250px;
+    left:77px;
+    text-align: left;
 }
-h2{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 30px;
-color: #FFFFFF;
+.pharagraph_desc{
+    padding-bottom: 40px;
 }
 .desc img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .desc p{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 33px;
-color: #FFFFFF;
-text-align: center;
-margin-top:15px
+    text-align: center;
+    margin-top:15px
+}
+.subject_page{
+    padding-top: 40px;
 }
 .sub p{
-  position: absolute;
-left: 12.06%;
-right: 5%;
-top: 50.14%;
-bottom: 65.65%;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 33px;
-color: #FFFFFF;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+.sub_title
+{
+    left: 70px;
 }
