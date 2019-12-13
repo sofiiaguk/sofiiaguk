@@ -127,7 +127,7 @@ padding-bottom: 140px;
 
 
 .materials{
-  padding-bottom: 250px;
+  padding-bottom: 335px;
 }
 .materials_title{
   text-align: center;
@@ -140,11 +140,13 @@ padding-bottom: 140px;
 
 
 .counter{
-  padding-bottom: 60px;
+  padding-bottom: 240px;
 }
-.numbers{
-
-  align:center;
+.counter_width{
+    width:1360px;
+}
+.number_right{
+margin-right: 80px;
 }
 .number{
   color: #FFFFFF;
@@ -155,4 +157,55 @@ padding-bottom: 140px;
 .number_desc{
   color: #BBBBBB;
   margin-top: 65px;
+}
+
+
+
+.sp_all{
+  align-items: flex-end;
+}
+.width_sp{
+    width:730px;
+}
+.sp_title{
+  text-align: center;
+  padding-bottom: 60px;
+}
+.sp_text{
+  color: #BBBBBB;
+}
+.all_sp_texts{
+  width:335px;
+  margin-left: 60px;
+}
+.percent{
+margin-left:19px;
+margin-top: 15px;
+}
+
+
+
+.companies{
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+.companies_title{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.companies_top{
+  padding-top: 50px;
+}
+
+
+
+.footer{
+  background-color: #181818;
+  height:200px;
+  width:100%;
+}
+.icons{
+  width: 440px;
+  margin-left: 29%;
+  padding-top: 6%;
 }
