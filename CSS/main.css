@@ -1,88 +1,158 @@
 body{
-    background-color: black;
-    font-family: Roboto;
-  }
+  background-color: black;
+  font-family: Roboto;
+}
+.big_title{
+  font-weight: 500;
+  font-size: 60px;
+  color: #FFFFFF;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+.title{
+  font-weight: 700;
+  font-size: 28px;
+  color: #FFFFFF;
+  line-height: 33px;
+}
+.pharagraph{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+}
 
-  .big_title{
-    font-weight: 500;
-    font-size: 60px;
-    color: #FFFFFF;
-    line-height: 70px;
-    letter-spacing: 1px;
-  }
-  .title{
-    font-weight: 700;
-    font-size: 28px;
-    color: #FFFFFF;
-    line-height: 33px;
-  }
-  .pharagraph{
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 32px;
-  }
 
-  .main_page p{
-    position: absolute;
-    margin-left: 226px;
-    top: 0px;
-    font-size: 24px;
-    color: #BBBBBB;
-    text-align:center;
+
+.main_page p{
+  position: absolute;
+  margin-left: 226px;
+  top: 0px;
+  font-size: 24px;
+  color: #BBBBBB;
+  text-align:center;
 }
 .main_page_uir{
-    padding-top: 30px;
-    padding-left: 110px;
-    text-align:center;
+  padding-top: 30px;
+  padding-left: 110px;
+  text-align:center;
 }
 .main_page a{
-    text-shadow: none;
-    text-decoration: none;
+  text-shadow: none;
+  text-decoration: none;
 }
 .main_page a::before {
-    color: #BBBBBB;
-    content: attr(data-hover);
-    position: absolute;
-    transition: transform 3s, opacity 1.5s;
+  color: #BBBBBB;
+  content: attr(data-hover);
+  position: absolute;
+  transition: transform 3s, opacity 1.5s;
 }
 .main_page a:hover::before,
 .main_page a:focus::before {
-    transform: scale(0.5);
-    color: white;
-    opacity: 0;
+  transform: scale(0.5);
+  color: white;
+  opacity: 0;
 }
 .main_page{
-    width: 1360px;
-    height:810px;
+  width: 1360px;
+  height:880px;
 }
 .main_page span {
-    position: absolute;
-    top:250px;
-    left:77px;
-    text-align: left;
+  position: absolute;
+  top:250px;
+  left:77px;
+  text-align: left;
 }
+
+
+
 .pharagraph_desc{
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 .desc img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 .desc p{
-    text-align: center;
-    margin-top:15px
+  text-align: center;
+  margin-top:15px
 }
+
+
+
 .subject_page{
-    padding-top: 40px;
+  padding-top: 115px;
+  padding-bottom: 160px;
 }
 .sub p{
-    position: absolute;
-    right: 10%;
-    top: 50%;
+  position: absolute;
+  right: 10%;
+  top: 50%;
 }
 .sub_title
 {
-    left: 70px;
+  left: 70px;
+}
+.sub_ImgIT{
+  position: absolute;
+  top: 100px;
+  left: -170px;
+}
+.sub_ImgManagment{
+  position: absolute;
+  top: 530px;
+  left: -265px;
+}
+.sub_ImgEconomy{
+  position: absolute;
+  top: 315px;
+  left: -41px;
+}
+
+
+
+.why_uir{
+padding-bottom: 140px;
+}
+.list{
+  padding-top: 80px;
+  padding-left: 7px;
+}
+.text1{
+  margin-top: 20px;
+  padding-left: 25px;
+}
+.list1{
+  padding-bottom: 40px;
+}
+
+
+.materials{
+  padding-bottom: 250px;
+}
+.materials_title{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.materials p{
+  padding-bottom: 10px;
+}
+
+.counter{
+  padding-bottom: 200px; 
+}
+.numbers{
+
+  align:center;
+}
+.number{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 32px;
+}
+.number_desc{
+  color: #BBBBBB;
+  margin-top: 65px;
 }
