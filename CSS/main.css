@@ -53,7 +53,7 @@ body{
 }
 .main_page{
   width: 1360px;
-  height:880px;
+  height:830px;
 }
 .main_page span {
   position: absolute;
@@ -127,7 +127,7 @@ padding-bottom: 140px;
 
 
 .materials{
-  padding-bottom: 50px;
+  padding-bottom: 250px;
 }
 .materials_title{
   text-align: center;
@@ -136,6 +136,9 @@ padding-bottom: 140px;
 .materials p{
   padding-bottom: 10px;
 }
+
+
+
 .counter{
   padding-bottom: 60px;
 }
