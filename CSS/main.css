@@ -55,7 +55,7 @@ body{
 }
 .main_page{
   width: 1360px;
-  height:880px;
+  height:830px;
 }
 .main_page span {
   position: absolute;
@@ -139,8 +139,10 @@ padding-bottom: 140px;
   padding-bottom: 10px;
 }
 
+
+
 .counter{
-  padding-bottom: 200px;
+  padding-bottom: 60px;
 }
 .numbers{
 
