@@ -136,3 +136,20 @@ padding-bottom: 140px;
 .materials p{
   padding-bottom: 10px;
 }
+.counter{
+  padding-bottom: 60px;
+}
+.numbers{
+
+  align:center;
+}
+.number{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 32px;
+}
+.number_desc{
+  color: #BBBBBB;
+  margin-top: 65px;
+}
