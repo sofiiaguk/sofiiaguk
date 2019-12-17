@@ -187,7 +187,7 @@ margin-top: 15px;
 
 .companies{
   padding-top: 200px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 .companies_title{
   text-align: center;
@@ -195,6 +195,10 @@ margin-top: 15px;
 }
 .companies_top{
   padding-top: 50px;
+}
+
+.epam a:hover::before {
+  background: url(images/epam_anim.png);
 }
 
 
@@ -205,7 +209,13 @@ margin-top: 15px;
   width:100%;
 }
 .icons{
-  width: 440px;
-  margin-left: 29%;
-  padding-top: 6%;
+  width: 200px;
+}
+.icon_vk{
+  margin-left: 22vw;
+  margin-top: 10vh;
+}
+.icon_inst{
+  margin-left: 34vw;
+  margin-top: 8vh;
 }
