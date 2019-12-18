@@ -136,6 +136,18 @@ padding-bottom: 140px;
 .materials p{
   padding-bottom: 10px;
 }
+.padd_mat{
+  margin-bottom:7px
+}
+.mat2{
+  padding-left:330px;  padding-top:10px
+}
+.mat3{
+  padding-left: 550px; padding-top:10px
+}
+.all_mat{
+  width:80vw;
+}
 
 
 
@@ -207,6 +219,7 @@ margin-top: 15px;
   background-color: #181818;
   height:200px;
   width:100%;
+  padding-bottom: OpxS;
 }
 .icons{
   width: 200px;
