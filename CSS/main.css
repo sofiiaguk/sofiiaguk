@@ -47,9 +47,8 @@ body{
 }
 .main_page a:hover::before,
 .main_page a:focus::before {
-  transform: scale(0.5);
   color: white;
-  opacity: 0;
+  opacity: 5s;
 }
 .main_page{
   width: 1360px;
@@ -96,17 +95,31 @@ body{
   position: absolute;
   top: 100px;
   left: -170px;
+  transition: 1s; /* Время эффекта */
 }
+   .sub_ImgIT:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+   }
+
 .sub_ImgManagment{
   position: absolute;
   top: 530px;
   left: -265px;
+  transition: 1s;
 }
+   .sub_ImgManagment:hover {
+    transform: scale(1.1);
+   }
+
 .sub_ImgEconomy{
   position: absolute;
   top: 315px;
   left: -41px;
+  transition: 1s;
 }
+   .sub_ImgEconomy:hover {
+    transform: scale(1.1);
+   }
 
 
 
@@ -208,13 +221,6 @@ margin-top: 15px;
 .companies_top{
   padding-top: 50px;
 }
-
-.epam a:hover::before {
-  background: url(images/epam_anim.png);
-}
-
-
-
 .footer{
   background-color: #181818;
   height:200px;
